@@ -4,6 +4,119 @@ padding: 0;
 text-decoration: none;
 
 }
+.smaller-green {
+    font-family: 'Onest', sans-serif;
+    flex: 1;
+    position: absolute;
+    top: 57vw;
+    left: 31vw;
+    font-size: 3.2vw;
+    text-align: center;
+    color: #53FA48;
+    text-wrap: nowrap;
+    font-weight: bold;
+}   
+.about-title{
+    font-family: 'Onest', sans-serif;
+    text-shadow: 
+          0 0 5px rgba(255, 255, 255, 0.7);
+    flex: 1;
+    top: 57vw;
+    position: absolute;
+    left: 0.7vw;
+    font-size: 3.2vw;
+    text-align: center;
+    color: #ffffff;
+    text-wrap: nowrap;
+    font-weight: bold;
+}   
+.about-paragraph{
+    font-family: 'Onest', sans-serif;
+    flex: 1;
+    position: absolute;
+    top: 62vw;
+    left: 0.7vw;
+    font-size: 1vw;
+    text-align: center;
+    color: #ffffff;
+    width: 40%;
+    text-wrap: nowrap;
+    font-weight: 350;
+    white-space: normal; 
+    word-wrap: break-word;
+    line-height: 1.5 
+}
+.yellow-highlight{
+    color: #EED202;
+}
+.green-highlight{
+    color: #53FA48;
+}
+.red-highlight{
+    color: #FF1E1E;
+}
+.time-place{
+   
+        font-family: 'Onest', sans-serif;
+        flex: 1;
+        color: #fff; 
+        text-shadow: 
+          0 0 5px rgba(255, 255, 255, 0.7);
+        font-size: 3.2vw;
+        text-align: center;
+  
+        text-wrap: nowrap;
+        font-weight: bold;
+    
+}
+.time-place-details {
+    font-family: 'Onest', sans-serif;
+    flex: 1;
+    font-size: 2.3vw;
+    text-align: center;
+    color: #ffffff;
+    text-wrap: nowrap;
+    font-weight: 400;
+}
+.position-image{  position: relative;
+    transform: translateY(-12vw)  translateX(66vw);
+    }
+.contact-title{
+    position: relative;
+    transform: translateY(5vw)  translateX(2vw);
+    font-family: 'Onest', sans-serif;
+    text-shadow: 
+          0 0 5px rgba(255, 255, 255, 0.7);
+    flex: 1;
+    font-size: 4.2vw;
+    text-align: center;
+    color: #ffffff;
+    text-wrap: nowrap;
+    font-weight: bold;
+}
+.nuke-logo{
+    position: relative;
+    transform: translateY(0vw)  translateX(-16vw);
+}
+.cse-logo{
+    position: relative;
+    transform: translateY(5vw)  translateX(17vw);
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+
+    padding: 30px;
+}
+  
+.icon {
+  margin: 0 53px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  
+}
 
 /* header {
 display: flex;

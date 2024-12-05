@@ -34,6 +34,16 @@
         </p>
         </div>
     </section>
+    
+    <div class = "time-place">Where? When?</div>
+    <br>
+    <br>
+    <div class = "time-place-details">
+    15/05/2025
+    <br>
+    ESI,Algiers
+    </div>
+    <img src = "img/position.svg" , alt = "position" , class = "position-image">
     <section class="event-agenda">
     <!-- Header Section-->
     
@@ -68,6 +78,23 @@
       </div>
     </div>
   </section>
+  <section class = "contact section"> 
+    <br>
+<div style="display: flex;">
+    
+    <div class = "cse-logo"> <img src = "img/cse_logo.svg" , alt = "cse logo">
+</div>
+<div class = "contact-title"> &nbsp;&nbsp;Contact Us</div>
+<div class = "nuke-logo"> <img src = "img/nuke.svg" , alt = "logo"> </div>
+</div>
+    <div class="social-icons">
+        <div>
+  <img src="img/Google_Plus.svg" alt="Google Plus" class="icon">
+  <img src="img/Facebook.svg" alt="Facebook" class="icon">
+  <img src="img/Instagram_Circle.svg" alt="Instagram" class="icon">
+  <img src="img/Linkedin_Circled.svg" alt="LinkedIn" class="icon">
+</div>
+</section>
 </body>
 
     
