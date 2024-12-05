@@ -9183,3 +9183,52 @@ footer.footer{
 }
 
 }
+.smaller-green {
+    font-family: 'Onest', sans-serif;
+    flex: 1;
+    position: absolute;
+    top: 57vw;
+    left: 31vw;
+    font-size: 3.2vw;
+    text-align: center;
+    color: #53FA48;
+    text-wrap: nowrap;
+    font-weight: bold;
+}   
+.about-title{
+    font-family: 'Onest', sans-serif;
+    flex: 1;
+    top: 57vw;
+    position: absolute;
+    left: 0.7vw;
+    font-size: 3.2vw;
+    text-align: center;
+    color: #ffffff;
+    text-wrap: nowrap;
+    font-weight: bold;
+}   
+.about-paragraph{
+    font-family: 'Onest', sans-serif;
+    flex: 1;
+    position: absolute;
+    top: 62vw;
+    left: 0.7vw;
+    font-size: 1vw;
+    text-align: center;
+    color: #ffffff;
+    width: 40%;
+    text-wrap: nowrap;
+    font-weight: 350;
+    white-space: normal; 
+    word-wrap: break-word;
+    line-height: 1.5 
+}
+.yellow-highlight{
+    color: #EED202;
+}
+.green-highlight{
+    color: #53FA48;
+}
+.red-highlight{
+    color: #FF1E1E;
+}

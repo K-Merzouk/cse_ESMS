@@ -24,6 +24,16 @@
 
 
     </section>
+    <section class="About section">
+        <div class= "about-title">    &nbsp;&nbsp;About Escape The </div><p class= 'smaller-green'>Lab</p>  <br></div>
+        <br>
+        <br>
+        <div>
+        <p class = "about-paragraph">
+        Dive into an <span class="yellow-highlight">immersive </span>  adventure with "<span class="green-highlight">Escape the Virus Lab</span>"! Team up to tackle exciting challenges in data analysis, cybersecurity, and artificial intelligence as you race to contain a simulated <span class="red-highlight">epidemic</span>. Are you clever enough to escape in time? A <span class= "green-highlight">one-of-a-kind </span> experience blending technology, science, and teamwork
+        </p>
+        </div>
+        </section>
 </body>
 
     
