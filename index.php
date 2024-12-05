@@ -78,7 +78,7 @@
       </div>
     </div>
   </section>
-  <section class = "contact section"> 
+  <section class = "contact section" id="contact"> 
     <br>
 <div style="display: flex;">
     
