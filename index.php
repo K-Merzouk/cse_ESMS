@@ -24,7 +24,7 @@
 
 
     </section>
-    <section class="About section">
+    <section class="About section" id ="About">
         <div class= "about-title">    &nbsp;&nbsp;About Escape The </div><p class= 'smaller-green'>Lab</p>  <br></div>
         <br>
         <br>
