@@ -20,6 +20,7 @@ background-size: cover;
 
 } */ 
 
+
 /*mise en page*/
 header{
     height: 50px;  
@@ -118,7 +119,11 @@ color: #53FA48;
 text-wrap: nowrap;
 font-weight: bold;
 }   
+#about{
+    margin-top: 20vh;
+}
 .about-title{
+
 font-family: 'Onest', sans-serif;
 flex: 1;
 top: 57vw;
@@ -144,7 +149,8 @@ text-wrap: nowrap;
 font-weight: 350;
 white-space: normal; 
 word-wrap: break-word;
-line-height: 1.5 
+line-height: 1.5;
+min-height: 400px;
 }
 .yellow-highlight{
 color: #EED202;
