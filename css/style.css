@@ -19,120 +19,6 @@ background-size: cover;
 
 
 } */ 
-.smaller-green {
-    font-family: 'Onest', sans-serif;
-    flex: 1;
-    position: absolute;
-    top: 57vw;
-    left: 31vw;
-    font-size: 3.2vw;
-    text-align: center;
-    color: #53FA48;
-    text-wrap: nowrap;
-    font-weight: bold;
-}   
-.about-title{
-    font-family: 'Onest', sans-serif;
-    text-shadow: 
-          0 0 5px rgba(255, 255, 255, 0.7);
-    flex: 1;
-    top: 57vw;
-    position: absolute;
-    left: 0.7vw;
-    font-size: 3.2vw;
-    text-align: center;
-    color: #ffffff;
-    text-wrap: nowrap;
-    font-weight: bold;
-}   
-.about-paragraph{
-    font-family: 'Onest', sans-serif;
-    flex: 1;
-    position: absolute;
-    top: 62vw;
-    left: 0.7vw;
-    font-size: 1vw;
-    text-align: center;
-    color: #ffffff;
-    width: 40%;
-    text-wrap: nowrap;
-    font-weight: 350;
-    white-space: normal; 
-    word-wrap: break-word;
-    line-height: 1.5 
-}
-.yellow-highlight{
-    color: #EED202;
-}
-.green-highlight{
-    color: #53FA48;
-}
-.red-highlight{
-    color: #FF1E1E;
-}
-.time-place{
-   
-        font-family: 'Onest', sans-serif;
-        flex: 1;
-        color: #fff; 
-        text-shadow: 
-          0 0 5px rgba(255, 255, 255, 0.7);
-        font-size: 3.2vw;
-        text-align: center;
-  
-        text-wrap: nowrap;
-        font-weight: bold;
-    
-}
-.time-place-details {
-    font-family: 'Onest', sans-serif;
-    flex: 1;
-    font-size: 2.3vw;
-    text-align: center;
-    color: #ffffff;
-    text-wrap: nowrap;
-    font-weight: 400;
-}
-.position-image{  position: relative;
-    transform: translateY(-12vw)  translateX(66vw);
-    }
-.contact-title{
-    position: relative;
-    transform: translateY(5vw)  translateX(2vw);
-    font-family: 'Onest', sans-serif;
-    text-shadow: 
-          0 0 5px rgba(255, 255, 255, 0.7);
-    flex: 1;
-    font-size: 4.2vw;
-    text-align: center;
-    color: #ffffff;
-    text-wrap: nowrap;
-    font-weight: bold;
-}
-.nuke-logo{
-    position: relative;
-    transform: translateY(0vw)  translateX(-16vw);
-}
-.cse-logo{
-    position: relative;
-    transform: translateY(5vw)  translateX(17vw);
-}
-.social-icons {
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-
-    padding: 30px;
-  
-  }
-  
-  .icon {
-    margin: 0 53px;
-    display: inline-block;
-    text-align: center;
-    line-height: 50px;
-    
-  }
 
 /*mise en page*/
 header{
@@ -526,6 +412,83 @@ footer{
     font-weight: 100;
 
 }
+ /* Event Agenda Container */
+ .event-agenda {
+    text-align: center; /* Centering align the text */
+    padding: 40px; /* Adding padding for spacing */
+  }
+  
+  /* Header Section */
+  .header p {
+    margin: 5px 0; /* Reducing spacing between lines */
+    font-size: 3em; /* Medium font size */
+  }
+  
+  .header h1 {
+    margin: 30px 0; /* Spacing above and below title */
+    font-size: 4em; /* Larger font size for the title */
+    font-weight: bold; /* Make title bold */
+    color: #e7e7e7 /* Title coloring */
+
+  }
+  
+  /* Agenda Container */
+  .agenda {
+    background-image: url('../img/Yellow.png') ;
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-family: 'Onest', 'Sans-serif';
+    margin-top: 0px; /* Adding space between header and agenda */
+    display: flex;
+    flex-direction: column; /* Arranging items vertically */
+    align-items: flex-start; /* Aligning text to the left */
+    padding-left: 30%; /* Pushing content to the right */
+    position: relative; /* For positioning timeline */
+  }
+  
+  /* Individual Agenda Item */
+  .agenda-item {
+    display: flex; /* Arranging time and activity side by side */
+    align-items: center; /* Vertically aligning the items */
+    margin: 10px 0; /* Adding spacing between agenda items */
+    position: relative; 
+  }
+  
+  /* Timeline (Time Column) */
+  .time {
+    font-family: 'Onest', 'Sans-serif';
+    font-size: 2em; /* Medium font size */
+    margin-right: 30px; /* Space between time and activity */
+    color: #fc0000; /* White text */
+    border-right: 2px solid #60FF57; /* Yellow line separating text */
+    padding-right: 100px; /* Space inside border */
+  }
+  .time1 {
+    font-family: 'Onest', 'Sans-serif';
+    font-size: 2em; /* Medium font size */
+    margin-right: 30px; /* Space between time and activity */
+    color: #fc0000; /* White text */
+    border-right: 2px solid #60FF57; /* Yellow line separating text */
+    padding-right: 115px; /* Space inside border */
+  }
+  .time2 {
+    font-family: 'Onest', 'Sans-serif';
+    font-size: 2em; /* Medium font size */
+    margin-right: 30px; /* Space between time and activity */
+    color: #fc0000; /* White text */
+    border-right: 2px solid #60FF57; /* Yellow line separating text */
+    padding-right: 105px; /* Space inside border */
+  }
+  
+  /* Activity Text */
+  .activity {
+    color: #fff;
+    font-size: 2em; /* Medium font size */
+    font-weight: bold; /* Bold for emphasis */
+    margin-left: 75px; /* Space after the yellow line */
+  }
+  
 .top::before{
     content:"" ;
     position: absolute;
