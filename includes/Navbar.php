@@ -8,10 +8,10 @@
                         <img src='../img/dwldbtn.png' class="Menu">
                 <div class="nav-link">
                         <div class='btn'> </div><ul>
-                        <li><a href="../Home.php" class="A"><p>Home</p></a></li>
-                        <li><a href="../About.php" class="Ar">About</a></li>
-                        <li><a  href="../Agenda.php" class="I">Agenda</a></li>
-                        <li><a href="../Contact.php" class= "C">Contact Us</a></li>
+                        <li><a href="#top" class="A"><p>Home</p></a></li>
+                        <li><a href="#About" class="Ar">About</a></li>
+                        <li><a  href="#agenda" class="I">Agenda</a></li>
+                        <li><a href="#ContactUs" class= "C">Contact Us</a></li>
                       
                     
                         </ul></div>
