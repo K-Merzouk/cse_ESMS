@@ -533,6 +533,7 @@ footer{
 }
  /* Event Agenda Container */
  .event-agenda {
+    margin-left: 10vh;
     text-align: center; /* Centering align the text */
     padding: 40px; /* Adding padding for spacing */
   }
@@ -544,7 +545,7 @@ footer{
   }
   
   .header h1 {
-    margin: 30px 0; /* Spacing above and below title */
+    margin: 30px 40px; /* Spacing above and below title */
     font-size: 4em; /* Larger font size for the title */
     font-weight: bold; /* Make title bold */
     color: #e7e7e7 /* Title coloring */
@@ -554,9 +555,9 @@ footer{
   /* Agenda Container */
   .agenda {
     background-image: url('../img/Yellow.png') ;
-    background-size: 50vw;
+    background-size:   48vw;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 0vh 5vh;
     font-family: 'Onest', 'Sans-serif';
     margin-top: 0px; /* Adding space between header and agenda */
     display: flex;
