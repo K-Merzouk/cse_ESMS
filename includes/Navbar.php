@@ -9,9 +9,9 @@
                 <div class="nav-link">
                         <div class='btn'> </div><ul>
                         <li><a href="#top" class="A"><p>Home</p></a></li>
-                        <li><a href="#About" class="Ar">About</a></li>
-                        <li><a  href="#agenda" class="I">Agenda</a></li>
-                        <li><a href="#ContactUs" class= "C">Contact Us</a></li>
+                        <li><a href="#about" class="Ar"><p>About</p></a></li>
+                        <li><a  href="#agenda" class="I"><p>Agenda</p></a></li>
+                        <li><a href="#ContactUs" class= "C"><p>Contact Us</p></a></li>
                       
                     
                         </ul></div>
