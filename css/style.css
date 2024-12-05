@@ -96,6 +96,43 @@ background-size: cover;
 .position-image{  position: relative;
     transform: translateY(-12vw)  translateX(66vw);
     }
+.contact-title{
+    position: relative;
+    transform: translateY(5vw)  translateX(2vw);
+    font-family: 'Onest', sans-serif;
+    text-shadow: 
+          0 0 5px rgba(255, 255, 255, 0.7);
+    flex: 1;
+    font-size: 4.2vw;
+    text-align: center;
+    color: #ffffff;
+    text-wrap: nowrap;
+    font-weight: bold;
+}
+.nuke-logo{
+    position: relative;
+    transform: translateY(0vw)  translateX(-16vw);
+}
+.cse-logo{
+    position: relative;
+    transform: translateY(5vw)  translateX(17vw);
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+
+    padding: 30px;
+  
+  }
+  
+  .icon {
+    margin: 0 53px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    
+  }
 
 /*mise en page*/
 header{
