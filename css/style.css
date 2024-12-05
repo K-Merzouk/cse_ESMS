@@ -9197,6 +9197,8 @@ footer.footer{
 }   
 .about-title{
     font-family: 'Onest', sans-serif;
+    text-shadow: 
+          0 0 5px rgba(255, 255, 255, 0.7);
     flex: 1;
     top: 57vw;
     position: absolute;
@@ -9232,3 +9234,29 @@ footer.footer{
 .red-highlight{
     color: #FF1E1E;
 }
+.time-place{
+   
+        font-family: 'Onest', sans-serif;
+        flex: 1;
+        color: #fff; 
+        text-shadow: 
+          0 0 5px rgba(255, 255, 255, 0.7);
+        font-size: 3.2vw;
+        text-align: center;
+  
+        text-wrap: nowrap;
+        font-weight: bold;
+    
+}
+.time-place-details {
+    font-family: 'Onest', sans-serif;
+    flex: 1;
+    font-size: 2.3vw;
+    text-align: center;
+    color: #ffffff;
+    text-wrap: nowrap;
+    font-weight: 400;
+}
+.position-image{  position: relative;
+    transform: translateY(-12vw)  translateX(66vw);
+    }

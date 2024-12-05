@@ -33,7 +33,19 @@
         Dive into an <span class="yellow-highlight">immersive </span>  adventure with "<span class="green-highlight">Escape the Virus Lab</span>"! Team up to tackle exciting challenges in data analysis, cybersecurity, and artificial intelligence as you race to contain a simulated <span class="red-highlight">epidemic</span>. Are you clever enough to escape in time? A <span class= "green-highlight">one-of-a-kind </span> experience blending technology, science, and teamwork
         </p>
         </div>
-        </section>
+        </section class = "time and place">
+        <section> <div class = "time-place">Where? When?</div>
+    <br>
+    <br>
+    <div class = "time-place-details">
+    15/05/2025
+    <br>
+    ESI,Algiers
+    </div>
+    <img src = "img/position.svg" , alt = "position" , class = "position-image">
+ 
+
+</section>
 </body>
 
     
