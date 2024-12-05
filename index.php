@@ -14,7 +14,7 @@
 <body >
 <header><?php include 'includes/navbar.php';?></header>
 <body>
-    <section class="top">
+    <section class="top" id="top">
         <div class= "top1"><div class ='welcome'>   <h1 class = "">  &nbsp;&nbsp;Escape The  </h1><p class= 'green'>Lab</p>  <br></div>
         <br>
         <br>
