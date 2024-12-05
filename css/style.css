@@ -435,8 +435,12 @@ footer{
   
   /* Agenda Container */
   .agenda {
+    background-image: url('../img/Yellow.png') ;
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: 0 0;
     font-family: 'Onest', 'Sans-serif';
-    margin-top: 105px; /* Adding space between header and agenda */
+    margin-top: 0px; /* Adding space between header and agenda */
     display: flex;
     flex-direction: column; /* Arranging items vertically */
     align-items: flex-start; /* Aligning text to the left */
@@ -458,7 +462,7 @@ footer{
     font-size: 2em; /* Medium font size */
     margin-right: 30px; /* Space between time and activity */
     color: #fc0000; /* White text */
-    border-right: 2px solid #e7e7e7; /* Yellow line separating text */
+    border-right: 2px solid #60FF57; /* Yellow line separating text */
     padding-right: 100px; /* Space inside border */
   }
   .time1 {
@@ -466,8 +470,16 @@ footer{
     font-size: 2em; /* Medium font size */
     margin-right: 30px; /* Space between time and activity */
     color: #fc0000; /* White text */
-    border-right: 2px solid #e7e7e7; /* Yellow line separating text */
+    border-right: 2px solid #60FF57; /* Yellow line separating text */
     padding-right: 115px; /* Space inside border */
+  }
+  .time2 {
+    font-family: 'Onest', 'Sans-serif';
+    font-size: 2em; /* Medium font size */
+    margin-right: 30px; /* Space between time and activity */
+    color: #fc0000; /* White text */
+    border-right: 2px solid #60FF57; /* Yellow line separating text */
+    padding-right: 105px; /* Space inside border */
   }
   
   /* Activity Text */
