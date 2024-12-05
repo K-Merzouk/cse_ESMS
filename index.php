@@ -36,12 +36,13 @@
         </section>
     <section class="event-agenda">
     <!-- Header Section-->
+    
+    <!-- Agenda Items -->
+    <div class="agenda"id="agenda">
     <div class="header">
       <h1>Event Agenda</h1> <!-- Title -->
     </div>
 
-    <!-- Agenda Items -->
-    <div class="agenda"id="agenda">
       <!-- First Agenda Item -->
       <div class="agenda-item">
         <div class="time1"> 9:15–10:30</div> <!-- Timeline -->
@@ -50,7 +51,7 @@
 
       <!-- Second Agenda Item -->
       <div class="agenda-item">
-        <div class="time">11:00–12:30</div> <!-- Timeline -->
+        <div class="time2">11:00–12:30</div> <!-- Timeline -->
         <div class="activity">Escape room session</div> <!-- Activity -->
       </div>
 
